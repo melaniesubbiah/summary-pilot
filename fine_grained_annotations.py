@@ -6,6 +6,8 @@ import glob
 import json
 import nltk
 
+nltk.download("popular")
+
 query = st.query_params
 to_download = ""
 if "download" in query:
