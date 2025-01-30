@@ -58,9 +58,4 @@ For example, *Summary A* is consistent with the story. The last bold sentence in
 
 An additional input is provided to you for any explanation you may want to provide for your answer. This may be an explanation that all the lines of the summary are consistent with the story, or that one or more lines are inconsistent with the story, or some other explanation.
 
-### Payment
-You will be paid via Upwork once you have completed the pilot. Please allow a few days to submit the payment. 
-
-**Thank you so much for participating in our study!! We would love to hear any feedback that you may have about this task!**
-
 ---
