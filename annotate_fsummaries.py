@@ -36,7 +36,7 @@ if "download" in query:
 elif any(["username" not in query, "summaryid" not in query]):
     # display summarization guidelines
     # load summarization guideline from guideline.md
-    guideline_name = "fsummary_guildline.md"
+    guideline_name = "fsummary_guideline.md"
     with open(guideline_name, "r") as f:
         guideline = f.read()
     st.markdown(guideline)
