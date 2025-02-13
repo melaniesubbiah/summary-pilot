@@ -64,7 +64,7 @@ if __name__ == "__main__":
     # Collect UserID
     if st.session_state['pageNum'] < 0:
         st.markdown(
-            'Please enter your assigned user ID below to start the task. You can stop the task and revisit it later. Your progress will be saved connected to your user ID.')
+            'Please enter your assigned user ID below to start the task. You can stop the task and revisit it later. Your progress will be saved connected to your user ID. Answer each question carefully as you will not be able to go back to a previous question once you have answered it.')
 
         valid_ids = ['test1', 'test2', 'test3']
         if st.session_state["userID"] == "" or st.session_state["userID"] not in valid_ids:
