@@ -9,7 +9,7 @@ def next_click():
     if not os.path.exists(f"human_summary_eval/annotations/{st.session_state['userID']}.json"):
         with open(f"human_summary_eval/annotations/{st.session_state['userID']}.json", "w") as f:
             f.write(json.dumps({}))
-    with open(f"annotations/{st.session_state['userID']}.json", "r") as f:
+    with open(f"human_summary_eval/annotations/{st.session_state['userID']}.json", "r") as f:
         annotations = json.load(f)
 
     if st.session_state["pageNum"] == -1:
