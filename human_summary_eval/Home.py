@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     # Init the page
     with st.expander("Instructions", expanded=expanded):
-        with open('instructions.md', "r") as f:
+        with open('human_summary_eval/instructions.md', "r") as f:
             instructions = f.read()
         st.markdown(instructions)
 
