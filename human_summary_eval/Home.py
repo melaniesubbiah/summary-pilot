@@ -6,8 +6,8 @@ import time
 
 def next_click():
     os.makedirs("annotations", exist_ok=True)
-    if not os.path.exists(f"annotations/{st.session_state['userID']}.json"):
-        with open(f"annotations/{st.session_state['userID']}.json", "w") as f:
+    if not os.path.exists(f"human_summary_eval/annotations/{st.session_state['userID']}.json"):
+        with open(f"human_summary_eval/annotations/{st.session_state['userID']}.json", "w") as f:
             f.write(json.dumps({}))
     with open(f"annotations/{st.session_state['userID']}.json", "r") as f:
         annotations = json.load(f)
@@ -25,7 +25,7 @@ def next_click():
         }
         if f"q{st.session_state['pageNum']}_explanation" in st.session_state:
             annotations[st.session_state["pageNum"]].update({"explanation": st.session_state[f"q{st.session_state['pageNum']}_explanation"]})
-        with open(f"annotations/{st.session_state['userID']}.json", "w") as f:
+        with open(f"human_summary_eval/annotations/{st.session_state['userID']}.json", "w") as f:
             f.write(json.dumps(annotations))
         st.session_state['pageNum'] += 1
 
@@ -46,12 +46,12 @@ if __name__ == "__main__":
         st.markdown(instructions)
 
     # Load stories
-    with open('../../storysumm.json', 'r') as f:
+    with open('human_summary_eval/storysumm.json', 'r') as f:
         storysumm = json.load(f)
 
     # Load the data
     claims = []
-    with open('../../human_summaries.json', "r") as f:
+    with open('human_summary_eval/human_summaries.json', "r") as f:
         human_summaries = json.load(f)
         for storyid, summary in human_summaries.items():
             for i in range(len(summary)):
@@ -76,7 +76,7 @@ if __name__ == "__main__":
         if st.session_state["userID"] == 'download':
             # We can download all files.
             annotations = {}
-            files = glob.glob(pathname="annotations/*")
+            files = glob.glob(pathname="human_summary_eval/annotations/*")
             for output_name in files:
                 with open(output_name, "r") as file:
                     st.write(output_name)
