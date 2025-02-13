@@ -5,7 +5,7 @@ import glob
 import time
 
 def next_click():
-    os.makedirs("annotations", exist_ok=True)
+    os.makedirs("human_summary_eval/annotations", exist_ok=True)
     if not os.path.exists(f"human_summary_eval/annotations/{st.session_state['userID']}.json"):
         with open(f"human_summary_eval/annotations/{st.session_state['userID']}.json", "w") as f:
             f.write(json.dumps({}))
