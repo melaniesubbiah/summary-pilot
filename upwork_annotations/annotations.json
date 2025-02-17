@@ -1,0 +1,92 @@
+[
+  {
+    "id": "9nvf1f",
+    "username": "margaretl",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "In the story, the friend talks about his \"accomplishments\" but the summary says \"promotion.\" An accomplishment could be any number of things, including but not limited to a promotion.",
+      "consistent_2": "Yes",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "The summary misrepresents the content of the conversation between the two friends. In the story they discuss the best friend's accomplishments, but the summary describes it as his promotion."
+    }
+  },
+  {
+    "id": "9nvf1f",
+    "username": "elizabethc",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "Although the protagonist mentions that they were thrilled to be able to learn about their friend's accomplishments, there was no specific mention of a promotion.",
+      "consistent_2": "Yes",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "The summary includes the friend's promotion, which wasn't mentioned in the story."
+    }
+  },
+  {
+    "id": "9nvf1f",
+    "username": "michelles",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "There is no mention of a promotion in the story. There are mentions of accomplishments in general and his kids, but no promotions.  The friend does return to his home to care for his family at the end. ",
+      "consistent_2": "Yes",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "There was no mention of a promotion in the story specifically. There were mentions of accomplishments, but not anything specific. "
+    }
+  },
+  {
+    "id": "9nvf1f",
+    "username": "richardt",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "The story doesn't mention a \"promotion\"; just \"accomplishments\".",
+      "consistent_2": "Yes",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "This is \"No\" because line-2 is a \"No\". As an aside wrt line-1, given the plot twist I think \"reunited\" is a little off; I would have chosen something like \"reconnected\" or perhaps \"got together again\""
+    }
+  },
+  {
+    "id": "9nvf1f",
+    "username": "cloez",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "It was not a promotion, specifically. The protagonist mentioned his accomplishments. ",
+      "consistent_2": "Yes",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "Most of the summary is correct, except for the detail of a 'promotion'. "
+    }
+  },
+  {
+    "id": "9nvf1f",
+    "username": "carlag",
+    "story": "Last night I saw my best friend. We hadn't seen each other in several years. I was thrilled to be able to see him again, learn all about him, his accomplishments, stories of his kids. He was having a rough go of it lately and was seeking solace. His wife passed away a few months ago of cancer, and he needed someone to talk to. I am honored that he chose me. He stayed with me for a few hours, venting all of his frustrations and letting go of some of his sadness. Whiskey started running a little low, and he decided it was time to go. I wished he'd stayed a little longer, but he has a family to care for, so I understood his need to leave. I just wish he had taken the whiskey bottle with him, since I can't drink it and it's just going to sit on my headstone until the groundskeepers come by next week.",
+    "summary": "After years apart, the protagonist reunited with their grieving best friend, who recently lost his wife to cancer. The friend poured out his heart over whiskey, telling the protagonist about his promotion and his kids, before returning home to care for his family. The plot twist at the end is that the protagonist is dead. The story reflects the enduring bonds of friendship and the role of companionship during times of hardship.",
+    "annotation": {
+      "consistent_0": "Yes",
+      "consistent_1": "No",
+      "explanation_1": "A promotion was not mentioned in the story.\n",
+      "consistent_2": "N/A, just commentary",
+      "consistent_3": "N/A, just commentary",
+      "consistent_full": "No",
+      "explanation_full": "There was no promotion mentioned."
+    }
+  }
+]

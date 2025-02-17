@@ -1,0 +1,1261 @@
+{
+  "test": {
+    "0": {
+      "answer": "No",
+      "timing": 11.29,
+      "explanation": "\"blah\""
+    }
+  },
+  "345": {
+    "0": {
+      "answer": "Yes",
+      "timing": 241.98
+    },
+    "1": {
+      "answer": "Yes",
+      "timing": 65.2
+    },
+    "2": {
+      "answer": "Yes",
+      "timing": 44.03
+    },
+    "3": {
+      "answer": "Yes",
+      "timing": 39.66
+    },
+    "4": {
+      "answer": "Yes",
+      "timing": 31.07
+    },
+    "5": {
+      "answer": "Yes",
+      "timing": 46.41
+    },
+    "6": {
+      "answer": "Yes",
+      "timing": 5.83
+    },
+    "7": {
+      "answer": "Yes",
+      "timing": 264.68
+    },
+    "8": {
+      "answer": "Yes",
+      "timing": 6.79
+    },
+    "9": {
+      "answer": "Yes",
+      "timing": 46.81
+    },
+    "10": {
+      "answer": "Yes",
+      "timing": 100.4
+    },
+    "11": {
+      "answer": "N/A, just commentary",
+      "timing": 50.85
+    },
+    "12": {
+      "answer": "Yes",
+      "timing": 19.58
+    },
+    "13": {
+      "answer": "Yes",
+      "timing": 102.03
+    },
+    "14": {
+      "answer": "Yes",
+      "timing": 323.45
+    },
+    "15": {
+      "answer": "Yes",
+      "timing": 2.26
+    },
+    "16": {
+      "answer": "Yes",
+      "timing": 95.08
+    },
+    "17": {
+      "answer": "No",
+      "timing": 274.75,
+      "explanation": "The doctor only had one more attempt and succeeded. "
+    },
+    "18": {
+      "answer": "Yes",
+      "timing": 6.23
+    },
+    "19": {
+      "answer": "Yes",
+      "timing": 13.65
+    },
+    "20": {
+      "answer": "No",
+      "timing": 589.35,
+      "explanation": "There is not an old, weak man on a hill who peacefully paints a cove scene, in the story. Reading the entire summary, I found that it is all incorrect.  \nThe story begins with a woman named Casey who takes a job as a housekeeper for a woman named Meredith because she needed the money."
+    },
+    "21": {
+      "answer": "No",
+      "timing": 30.65,
+      "explanation": "This does not happen in the story. There is not a man named Mark in the story."
+    },
+    "22": {
+      "answer": "No",
+      "timing": 29.28,
+      "explanation": "There is no mention of smoking in the story. This entire event does not happen in the story."
+    },
+    "23": {
+      "answer": "No",
+      "timing": 59.83,
+      "explanation": "This did not happen in the story. There was no Mark, and there was no declaration of a painter's best work."
+    },
+    "24": {
+      "answer": "No",
+      "timing": 45.35,
+      "explanation": "This event did not occur in the story. A painter did not light a painting on fire."
+    },
+    "25": {
+      "answer": "No",
+      "timing": 31.53,
+      "explanation": "This did not occur in the story. There was not an old painter or a Mark. "
+    },
+    "26": {
+      "answer": "No",
+      "timing": 17.1,
+      "explanation": "This did not occur in the story. "
+    },
+    "27": {
+      "answer": "Yes",
+      "timing": 21.31
+    },
+    "28": {
+      "answer": "Yes",
+      "timing": 541.74
+    },
+    "29": {
+      "answer": "Yes",
+      "timing": 91.03
+    },
+    "30": {
+      "answer": "Yes",
+      "timing": 63.53
+    },
+    "31": {
+      "answer": "Yes",
+      "timing": 19.38
+    },
+    "32": {
+      "answer": "Yes",
+      "timing": 12.08
+    },
+    "33": {
+      "answer": "Yes",
+      "timing": 178.97
+    },
+    "34": {
+      "answer": "Yes",
+      "timing": 4.59
+    },
+    "35": {
+      "answer": "Yes",
+      "timing": 52.37
+    },
+    "36": {
+      "answer": "Yes",
+      "timing": 16.3
+    },
+    "37": {
+      "answer": "Yes",
+      "timing": 13.58
+    },
+    "38": {
+      "answer": "Yes",
+      "timing": 84.3
+    },
+    "39": {
+      "answer": "Yes",
+      "timing": 14.68
+    },
+    "40": {
+      "answer": "Yes",
+      "timing": 112.18
+    },
+    "41": {
+      "answer": "No",
+      "timing": 630.77,
+      "explanation": "They played together at the playground nearly every afternoon since that summer in second grade. "
+    },
+    "42": {
+      "answer": "Yes",
+      "timing": 6.78
+    },
+    "43": {
+      "answer": "Yes",
+      "timing": 87.52
+    },
+    "44": {
+      "answer": "Yes",
+      "timing": 5.75
+    },
+    "45": {
+      "answer": "Yes",
+      "timing": 16.58
+    },
+    "46": {
+      "answer": "Yes",
+      "timing": 6.26
+    },
+    "47": {
+      "answer": "Yes",
+      "timing": 4.86
+    },
+    "48": {
+      "answer": "Yes",
+      "timing": 35.5
+    },
+    "49": {
+      "answer": "Yes",
+      "timing": 16.65
+    },
+    "50": {
+      "answer": "Yes",
+      "timing": 269.7
+    },
+    "51": {
+      "answer": "Yes",
+      "timing": 10.53
+    },
+    "52": {
+      "answer": "Yes",
+      "timing": 7.42
+    },
+    "53": {
+      "answer": "Yes",
+      "timing": 27.75
+    },
+    "54": {
+      "answer": "Yes",
+      "timing": 3.08
+    },
+    "55": {
+      "answer": "Yes",
+      "timing": 12.1
+    },
+    "56": {
+      "answer": "Yes",
+      "timing": 2.91
+    },
+    "57": {
+      "answer": "Yes",
+      "timing": 10.88
+    },
+    "58": {
+      "answer": "Yes",
+      "timing": 6.0
+    },
+    "59": {
+      "answer": "Yes",
+      "timing": 9.5
+    },
+    "60": {
+      "answer": "Yes",
+      "timing": 338.8
+    },
+    "61": {
+      "answer": "Yes",
+      "timing": 4.73
+    },
+    "62": {
+      "answer": "Yes",
+      "timing": 19.93
+    },
+    "63": {
+      "answer": "Yes",
+      "timing": 17.73
+    },
+    "64": {
+      "answer": "Yes",
+      "timing": 19.33
+    },
+    "65": {
+      "answer": "Yes",
+      "timing": 82.32
+    },
+    "66": {
+      "answer": "Yes",
+      "timing": 14.66
+    },
+    "67": {
+      "answer": "Yes",
+      "timing": 4.78
+    },
+    "68": {
+      "answer": "Yes",
+      "timing": 163.11
+    },
+    "69": {
+      "answer": "Yes",
+      "timing": 21.02
+    },
+    "70": {
+      "answer": "Yes",
+      "timing": 20.93
+    },
+    "71": {
+      "answer": "Yes",
+      "timing": 6.28
+    },
+    "72": {
+      "answer": "Yes",
+      "timing": 24.21
+    },
+    "73": {
+      "answer": "Yes",
+      "timing": 5.88
+    },
+    "74": {
+      "answer": "Yes",
+      "timing": 283.8
+    },
+    "75": {
+      "answer": "Yes",
+      "timing": 54.04
+    },
+    "76": {
+      "answer": "Yes",
+      "timing": 204.7
+    },
+    "77": {
+      "answer": "Yes",
+      "timing": 22.45
+    },
+    "78": {
+      "answer": "Yes",
+      "timing": 16.88
+    },
+    "79": {
+      "answer": "Yes",
+      "timing": 109.82
+    },
+    "80": {
+      "answer": "Yes",
+      "timing": 11.41
+    },
+    "81": {
+      "answer": "Yes",
+      "timing": 4.32
+    },
+    "82": {
+      "answer": "Yes",
+      "timing": 435.05
+    },
+    "83": {
+      "answer": "Yes",
+      "timing": 10.83
+    },
+    "84": {
+      "answer": "N/A, just commentary",
+      "timing": 164.33
+    },
+    "85": {
+      "answer": "Yes",
+      "timing": 86.3
+    },
+    "86": {
+      "answer": "N/A, just commentary",
+      "timing": 37.91
+    },
+    "87": {
+      "answer": "Yes",
+      "timing": 114.29
+    },
+    "88": {
+      "answer": "Yes",
+      "timing": 10.53
+    },
+    "89": {
+      "answer": "Yes",
+      "timing": 147.38
+    },
+    "90": {
+      "answer": "Yes",
+      "timing": 5.39
+    },
+    "91": {
+      "answer": "Yes",
+      "timing": 53.5
+    },
+    "92": {
+      "answer": "N/A, just commentary",
+      "timing": 6.48
+    },
+    "93": {
+      "answer": "Yes",
+      "timing": 262.88
+    },
+    "94": {
+      "answer": "Yes",
+      "timing": 52.64
+    },
+    "95": {
+      "answer": "Yes",
+      "timing": 8.66
+    },
+    "96": {
+      "answer": "Yes",
+      "timing": 7.79
+    },
+    "97": {
+      "answer": "Yes",
+      "timing": 343.22
+    },
+    "98": {
+      "answer": "Yes",
+      "timing": 9.64
+    },
+    "99": {
+      "answer": "Yes",
+      "timing": 8.98
+    },
+    "100": {
+      "answer": "Yes",
+      "timing": 18.7
+    },
+    "101": {
+      "answer": "Yes",
+      "timing": 9.45
+    },
+    "102": {
+      "answer": "Yes",
+      "timing": 5.5
+    },
+    "103": {
+      "answer": "Yes",
+      "timing": 273.43
+    },
+    "104": {
+      "answer": "Yes",
+      "timing": 6.7
+    },
+    "105": {
+      "answer": "No",
+      "timing": 79.72,
+      "explanation": "She ran at an inhuman speed, not leaping an inhuman distance. The rest of the statement is correct."
+    },
+    "106": {
+      "answer": "Yes",
+      "timing": 12.81
+    },
+    "107": {
+      "answer": "Yes",
+      "timing": 9.54
+    }
+  },
+  "123": {
+    "0": {
+      "answer": "Yes",
+      "timing": 1372.84
+    },
+    "1": {
+      "answer": "Yes",
+      "timing": 76.05
+    },
+    "2": {
+      "answer": "Yes",
+      "timing": 55.89
+    },
+    "3": {
+      "answer": "No",
+      "timing": 898.91,
+      "explanation": "The first time he reawakens in the hospital the seal doesn't strike him but simply flops in the ocean. (Sentence #31)"
+    },
+    "4": {
+      "answer": "No",
+      "timing": 583.05,
+      "explanation": "It's until the third episode in the hospital that what his parents are talking about is actaully mentioned. His mother says \"But, he has got to go to rehab.\" (Sentence #48 by my count)."
+    },
+    "5": {
+      "answer": "Yes",
+      "timing": 34.27
+    },
+    "6": {
+      "answer": "Yes",
+      "timing": 8.73
+    },
+    "7": {
+      "answer": "Yes",
+      "timing": 10.31
+    },
+    "8": {
+      "answer": "Yes",
+      "timing": 37.87
+    },
+    "9": {
+      "answer": "No",
+      "timing": 148.54,
+      "explanation": "The story doesn't say that the girl brings the meal to the dog. Rather it says that the dog goes to the girl. Otherwise this sentence is correct."
+    },
+    "10": {
+      "answer": "No",
+      "timing": 238.88,
+      "explanation": "I don't think this is the correct interpretation. I read the story as the girl having had the \"cylinder of metal\" and \"the weird tubes\" for a period of time. And then the dog is recalling an incident when he/she nudged the cylinder and  the girl pushed him/her away. The guess that it was an oxygen tank is probably correct, but not actaully mentioned in the story."
+    },
+    "11": {
+      "answer": "No",
+      "timing": 142.55,
+      "explanation": "I don't read this story as \"times\", but rather the one incident. The last time he/she had seen the girl."
+    },
+    "12": {
+      "answer": "No",
+      "timing": 162.21,
+      "explanation": "I think these two events happened on separate days. The \"blaring alarm and screeching van\" (possibly an ambulance but not explicitly mentioned) was yesterday. But the \"car pulled up\" is today."
+    },
+    "13": {
+      "answer": "Yes",
+      "timing": 16.79
+    },
+    "14": {
+      "answer": "Yes",
+      "timing": 28491.95
+    },
+    "15": {
+      "answer": "Yes",
+      "timing": 7.53
+    },
+    "16": {
+      "answer": "No",
+      "timing": 47.6,
+      "explanation": "The story doesn't say he resisted. Only that he screamed."
+    },
+    "17": {
+      "answer": "No",
+      "timing": 190.93,
+      "explanation": "First off, it is only presumed to be a doctor. The story says \"figure\". And there's no mention in the story of the figure speaking to him."
+    },
+    "18": {
+      "answer": "No",
+      "timing": 98.47,
+      "explanation": "Again, the story just says \"figure\".  Plus, this is the third attempt by reading. So \"final\" equated to \"third\"."
+    },
+    "19": {
+      "answer": "Yes",
+      "timing": 10.37
+    },
+    "20": {
+      "answer": "No",
+      "timing": 340.67,
+      "explanation": "Nothing to do with the original story."
+    },
+    "21": {
+      "answer": "No",
+      "timing": 17.25,
+      "explanation": "Nothing to do with the original story."
+    },
+    "22": {
+      "answer": "No",
+      "timing": 6.0,
+      "explanation": "Nothing to do with the original story."
+    },
+    "23": {
+      "answer": "No",
+      "timing": 5.72,
+      "explanation": "Nothing to do with the original story."
+    },
+    "24": {
+      "answer": "No",
+      "timing": 6.0,
+      "explanation": "Nothing to do with the original story."
+    },
+    "25": {
+      "answer": "No",
+      "timing": 5.67,
+      "explanation": "Nothing to do with the original story."
+    },
+    "26": {
+      "answer": "No",
+      "timing": 5.86,
+      "explanation": "Nothing to do with the original story."
+    },
+    "27": {
+      "answer": "Yes",
+      "timing": 599.54
+    },
+    "28": {
+      "answer": "Yes",
+      "timing": 11.57
+    },
+    "29": {
+      "answer": "N/A, just commentary",
+      "timing": 20.66
+    },
+    "30": {
+      "answer": "Yes",
+      "timing": 7.97
+    },
+    "31": {
+      "answer": "Yes",
+      "timing": 8.8
+    },
+    "32": {
+      "answer": "Yes",
+      "timing": 4.65
+    },
+    "33": {
+      "answer": "Yes",
+      "timing": 1386.69
+    },
+    "34": {
+      "answer": "Yes",
+      "timing": 3.11
+    },
+    "35": {
+      "answer": "Yes",
+      "timing": 2.39
+    },
+    "36": {
+      "answer": "Yes",
+      "timing": 2.2
+    },
+    "37": {
+      "answer": "Yes",
+      "timing": 2.45
+    },
+    "38": {
+      "answer": "Yes",
+      "timing": 2.57
+    },
+    "39": {
+      "answer": "Yes",
+      "timing": 2.34
+    },
+    "40": {
+      "answer": "Yes",
+      "timing": 7402.19
+    },
+    "41": {
+      "answer": "No",
+      "timing": 30.82,
+      "explanation": "Story says \"nearly every afternoon\"."
+    },
+    "42": {
+      "answer": "Yes",
+      "timing": 3.35
+    },
+    "43": {
+      "answer": "No",
+      "timing": 124.64,
+      "explanation": "The story says \"on the way to the park\" not the \"playground\". It is, though, a reasonable inference that the palyground is in the park."
+    },
+    "44": {
+      "answer": "Yes",
+      "timing": 17.7
+    },
+    "45": {
+      "answer": "Yes",
+      "timing": 8.64
+    },
+    "46": {
+      "answer": "Yes",
+      "timing": 9.61
+    },
+    "47": {
+      "answer": "Yes",
+      "timing": 21.75
+    },
+    "48": {
+      "answer": "No",
+      "timing": 124.34,
+      "explanation": "The story say Destiny screamed when she was \"plunged into darkness\", not as \"she feels someone elase\"."
+    },
+    "49": {
+      "answer": "Yes",
+      "timing": 14.52
+    },
+    "50": {
+      "answer": "Yes",
+      "timing": 20325.21
+    },
+    "51": {
+      "answer": "Yes",
+      "timing": 2.56
+    },
+    "52": {
+      "answer": "Yes",
+      "timing": 2.1
+    },
+    "53": {
+      "answer": "Yes",
+      "timing": 1.93
+    },
+    "54": {
+      "answer": "Yes",
+      "timing": 2.92
+    },
+    "55": {
+      "answer": "Yes",
+      "timing": 3.05
+    },
+    "56": {
+      "answer": "Yes",
+      "timing": 2.14
+    },
+    "57": {
+      "answer": "Yes",
+      "timing": 2.4
+    },
+    "58": {
+      "answer": "Yes",
+      "timing": 2.14
+    },
+    "59": {
+      "answer": "Yes",
+      "timing": 1.68
+    },
+    "60": {
+      "answer": "Yes",
+      "timing": 1273.61
+    },
+    "61": {
+      "answer": "Yes",
+      "timing": 2.51
+    },
+    "62": {
+      "answer": "Yes",
+      "timing": 2.01
+    },
+    "63": {
+      "answer": "Yes",
+      "timing": 1.89
+    },
+    "64": {
+      "answer": "Yes",
+      "timing": 2.41
+    },
+    "65": {
+      "answer": "Yes",
+      "timing": 1.66
+    },
+    "66": {
+      "answer": "Yes",
+      "timing": 2.08
+    },
+    "67": {
+      "answer": "Yes",
+      "timing": 1.94
+    },
+    "68": {
+      "answer": "No",
+      "timing": 1966.57,
+      "explanation": "Not wrong exactly, but interpretive. The story says \"a weight\" not an object, per se. And the \"It was worth it\" refrain refers to whole event not just the acquisition of the idol."
+    },
+    "69": {
+      "answer": "Yes",
+      "timing": 6.16
+    },
+    "70": {
+      "answer": "Yes",
+      "timing": 6.17
+    },
+    "71": {
+      "answer": "Yes",
+      "timing": 20.02
+    },
+    "72": {
+      "answer": "Yes",
+      "timing": 8.83
+    },
+    "73": {
+      "answer": "No",
+      "timing": 99.25,
+      "explanation": "The story doesn't say this. The brothers certainly wanted the book, but the shopkeeper's injury is the result of a fall, not direct violence."
+    },
+    "74": {
+      "answer": "Yes",
+      "timing": 18.07
+    },
+    "75": {
+      "answer": "Yes",
+      "timing": 14.37
+    },
+    "76": {
+      "answer": "Yes",
+      "timing": 2.71
+    },
+    "77": {
+      "answer": "Yes",
+      "timing": 15.03
+    },
+    "78": {
+      "answer": "Yes",
+      "timing": 11.27
+    },
+    "79": {
+      "answer": "Yes",
+      "timing": 38.82
+    },
+    "80": {
+      "answer": "Yes",
+      "timing": 20.19
+    },
+    "81": {
+      "answer": "No",
+      "timing": 115.9,
+      "explanation": "I don't think is the right interpretation. It's the presence in the idol that is \"remade\"; not the narrator being reborn. A minor issue, perhaps."
+    },
+    "82": {
+      "answer": "N/A, just commentary",
+      "timing": 51996.34
+    },
+    "83": {
+      "answer": "N/A, just commentary",
+      "timing": 3.73
+    },
+    "84": {
+      "answer": "N/A, just commentary",
+      "timing": 3.23
+    },
+    "85": {
+      "answer": "N/A, just commentary",
+      "timing": 2.96
+    },
+    "86": {
+      "answer": "N/A, just commentary",
+      "timing": 1.67
+    }
+  },
+  "test1": {
+    "0": {
+      "answer": "No",
+      "timing": 9.91,
+      "explanation": "blah"
+    },
+    "1": {
+      "answer": "Yes",
+      "timing": 3.81
+    },
+    "2": {
+      "answer": "N/A, just commentary",
+      "timing": 3.85
+    },
+    "3": {
+      "answer": "Yes",
+      "timing": 1.62
+    },
+    "4": {
+      "answer": "No",
+      "timing": 8.19,
+      "explanation": "dog "
+    },
+    "5": {
+      "answer": "Yes",
+      "timing": 2.23
+    },
+    "6": {
+      "answer": "N/A, just commentary",
+      "timing": 3.7
+    },
+    "7": {
+      "answer": "N/A, just commentary",
+      "timing": 2.59
+    },
+    "8": {
+      "answer": "N/A, just commentary",
+      "timing": 1.3
+    },
+    "9": {
+      "answer": "N/A, just commentary",
+      "timing": 1.16
+    },
+    "10": {
+      "answer": "N/A, just commentary",
+      "timing": 1.02
+    },
+    "11": {
+      "answer": "N/A, just commentary",
+      "timing": 1.2
+    },
+    "12": {
+      "answer": "N/A, just commentary",
+      "timing": 1.09
+    },
+    "13": {
+      "answer": "N/A, just commentary",
+      "timing": 1.19
+    },
+    "14": {
+      "answer": "N/A, just commentary",
+      "timing": 1.01
+    },
+    "15": {
+      "answer": "N/A, just commentary",
+      "timing": 0.97
+    },
+    "16": {
+      "answer": "N/A, just commentary",
+      "timing": 1.08
+    },
+    "17": {
+      "answer": "N/A, just commentary",
+      "timing": 1.0
+    },
+    "18": {
+      "answer": "N/A, just commentary",
+      "timing": 1.03
+    },
+    "19": {
+      "answer": "N/A, just commentary",
+      "timing": 1.22
+    },
+    "20": {
+      "answer": "N/A, just commentary",
+      "timing": 2.88
+    },
+    "21": {
+      "answer": "N/A, just commentary",
+      "timing": 4.19
+    },
+    "22": {
+      "answer": "N/A, just commentary",
+      "timing": 3.39
+    },
+    "23": {
+      "answer": "N/A, just commentary",
+      "timing": 0.95
+    },
+    "24": {
+      "answer": "N/A, just commentary",
+      "timing": 1.04
+    },
+    "25": {
+      "answer": "N/A, just commentary",
+      "timing": 1.2
+    },
+    "26": {
+      "answer": "N/A, just commentary",
+      "timing": 0.94
+    },
+    "27": {
+      "answer": "N/A, just commentary",
+      "timing": 1.15
+    },
+    "28": {
+      "answer": "N/A, just commentary",
+      "timing": 1.09
+    },
+    "29": {
+      "answer": "N/A, just commentary",
+      "timing": 0.96
+    },
+    "30": {
+      "answer": "N/A, just commentary",
+      "timing": 1.02
+    },
+    "31": {
+      "answer": "N/A, just commentary",
+      "timing": 0.99
+    },
+    "32": {
+      "answer": "N/A, just commentary",
+      "timing": 1.01
+    },
+    "33": {
+      "answer": "N/A, just commentary",
+      "timing": 1.08
+    },
+    "34": {
+      "answer": "N/A, just commentary",
+      "timing": 1.24
+    },
+    "35": {
+      "answer": "N/A, just commentary",
+      "timing": 1.29
+    },
+    "36": {
+      "answer": "N/A, just commentary",
+      "timing": 1.27
+    },
+    "37": {
+      "answer": "N/A, just commentary",
+      "timing": 1.22
+    },
+    "38": {
+      "answer": "N/A, just commentary",
+      "timing": 1.01
+    },
+    "39": {
+      "answer": "N/A, just commentary",
+      "timing": 1.03
+    },
+    "40": {
+      "answer": "N/A, just commentary",
+      "timing": 3.21
+    },
+    "41": {
+      "answer": "N/A, just commentary",
+      "timing": 1.16
+    },
+    "42": {
+      "answer": "N/A, just commentary",
+      "timing": 1.73
+    },
+    "43": {
+      "answer": "N/A, just commentary",
+      "timing": 1.36
+    },
+    "44": {
+      "answer": "N/A, just commentary",
+      "timing": 1.31
+    },
+    "45": {
+      "answer": "N/A, just commentary",
+      "timing": 1.4
+    },
+    "46": {
+      "answer": "N/A, just commentary",
+      "timing": 1.2
+    },
+    "47": {
+      "answer": "N/A, just commentary",
+      "timing": 1.13
+    },
+    "48": {
+      "answer": "N/A, just commentary",
+      "timing": 1.19
+    },
+    "49": {
+      "answer": "N/A, just commentary",
+      "timing": 1.25
+    },
+    "50": {
+      "answer": "N/A, just commentary",
+      "timing": 14.68
+    },
+    "51": {
+      "answer": "N/A, just commentary",
+      "timing": 0.9
+    },
+    "52": {
+      "answer": "N/A, just commentary",
+      "timing": 1.07
+    },
+    "53": {
+      "answer": "N/A, just commentary",
+      "timing": 1.11
+    },
+    "54": {
+      "answer": "N/A, just commentary",
+      "timing": 0.88
+    },
+    "55": {
+      "answer": "N/A, just commentary",
+      "timing": 0.89
+    },
+    "56": {
+      "answer": "N/A, just commentary",
+      "timing": 0.92
+    },
+    "57": {
+      "answer": "N/A, just commentary",
+      "timing": 1.14
+    },
+    "58": {
+      "answer": "N/A, just commentary",
+      "timing": 0.93
+    },
+    "59": {
+      "answer": "N/A, just commentary",
+      "timing": 1.06
+    },
+    "60": {
+      "answer": "N/A, just commentary",
+      "timing": 2.52
+    },
+    "61": {
+      "answer": "N/A, just commentary",
+      "timing": 9.6
+    },
+    "62": {
+      "answer": "N/A, just commentary",
+      "timing": 1.04
+    },
+    "63": {
+      "answer": "N/A, just commentary",
+      "timing": 0.95
+    },
+    "64": {
+      "answer": "N/A, just commentary",
+      "timing": 0.91
+    },
+    "65": {
+      "answer": "N/A, just commentary",
+      "timing": 0.96
+    },
+    "66": {
+      "answer": "N/A, just commentary",
+      "timing": 0.92
+    },
+    "67": {
+      "answer": "N/A, just commentary",
+      "timing": 0.99
+    },
+    "68": {
+      "answer": "N/A, just commentary",
+      "timing": 2.41
+    },
+    "69": {
+      "answer": "N/A, just commentary",
+      "timing": 0.97
+    },
+    "70": {
+      "answer": "N/A, just commentary",
+      "timing": 1.17
+    },
+    "71": {
+      "answer": "N/A, just commentary",
+      "timing": 1.19
+    },
+    "72": {
+      "answer": "N/A, just commentary",
+      "timing": 0.97
+    },
+    "73": {
+      "answer": "N/A, just commentary",
+      "timing": 0.89
+    },
+    "74": {
+      "answer": "N/A, just commentary",
+      "timing": 1.03
+    },
+    "75": {
+      "answer": "N/A, just commentary",
+      "timing": 1.08
+    },
+    "76": {
+      "answer": "N/A, just commentary",
+      "timing": 1.1
+    },
+    "77": {
+      "answer": "N/A, just commentary",
+      "timing": 1.28
+    },
+    "78": {
+      "answer": "N/A, just commentary",
+      "timing": 1.07
+    },
+    "79": {
+      "answer": "N/A, just commentary",
+      "timing": 1.16
+    },
+    "80": {
+      "answer": "N/A, just commentary",
+      "timing": 1.05
+    },
+    "81": {
+      "answer": "N/A, just commentary",
+      "timing": 1.05
+    },
+    "82": {
+      "answer": "N/A, just commentary",
+      "timing": 0.95
+    },
+    "83": {
+      "answer": "N/A, just commentary",
+      "timing": 0.98
+    },
+    "84": {
+      "answer": "N/A, just commentary",
+      "timing": 1.38
+    },
+    "85": {
+      "answer": "N/A, just commentary",
+      "timing": 0.93
+    },
+    "86": {
+      "answer": "N/A, just commentary",
+      "timing": 1.32
+    },
+    "87": {
+      "answer": "N/A, just commentary",
+      "timing": 1.35
+    },
+    "88": {
+      "answer": "N/A, just commentary",
+      "timing": 1.32
+    },
+    "89": {
+      "answer": "N/A, just commentary",
+      "timing": 1.38
+    },
+    "90": {
+      "answer": "N/A, just commentary",
+      "timing": 1.37
+    },
+    "91": {
+      "answer": "N/A, just commentary",
+      "timing": 1.35
+    },
+    "92": {
+      "answer": "N/A, just commentary",
+      "timing": 1.4
+    },
+    "93": {
+      "answer": "N/A, just commentary",
+      "timing": 1.57
+    },
+    "94": {
+      "answer": "N/A, just commentary",
+      "timing": 2.54
+    },
+    "95": {
+      "answer": "N/A, just commentary",
+      "timing": 1.51
+    },
+    "96": {
+      "answer": "N/A, just commentary",
+      "timing": 1.12
+    },
+    "97": {
+      "answer": "N/A, just commentary",
+      "timing": 2.58
+    },
+    "98": {
+      "answer": "N/A, just commentary",
+      "timing": 1.35
+    },
+    "99": {
+      "answer": "N/A, just commentary",
+      "timing": 0.97
+    },
+    "100": {
+      "answer": "N/A, just commentary",
+      "timing": 1.21
+    },
+    "101": {
+      "answer": "N/A, just commentary",
+      "timing": 1.07
+    },
+    "102": {
+      "answer": "N/A, just commentary",
+      "timing": 1.25
+    },
+    "103": {
+      "answer": "N/A, just commentary",
+      "timing": 1.28
+    },
+    "104": {
+      "answer": "N/A, just commentary",
+      "timing": 1.19
+    },
+    "105": {
+      "answer": "N/A, just commentary",
+      "timing": 1.83
+    },
+    "106": {
+      "answer": "N/A, just commentary",
+      "timing": 1.94
+    },
+    "107": {
+      "answer": "N/A, just commentary",
+      "timing": 2.05
+    }
+  }
+}
