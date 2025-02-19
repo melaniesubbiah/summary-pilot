@@ -1,4 +1,456 @@
 {
+    "234": {
+    "0": {
+      "answer": "Yes",
+      "timing": 250.38
+    },
+    "1": {
+      "answer": "Yes",
+      "timing": 10.46
+    },
+    "2": {
+      "answer": "Yes",
+      "timing": 10.51
+    },
+    "3": {
+      "answer": "Yes",
+      "timing": 17.77
+    },
+    "4": {
+      "answer": "Yes",
+      "timing": 11.84
+    },
+    "5": {
+      "answer": "Yes",
+      "timing": 7.33
+    },
+    "6": {
+      "answer": "Yes",
+      "timing": 4.69
+    },
+    "7": {
+      "answer": "Yes",
+      "timing": 309.6
+    },
+    "8": {
+      "answer": "Yes",
+      "timing": 7.39
+    },
+    "9": {
+      "answer": "No",
+      "timing": 123.7,
+      "explanation": "The dog believed that his name was Tomorrow, not that her saying \"See you tomorrow\" was as constant as his name."
+    },
+    "10": {
+      "answer": "Yes",
+      "timing": 26.25
+    },
+    "11": {
+      "answer": "Yes",
+      "timing": 36.16
+    },
+    "12": {
+      "answer": "No",
+      "timing": 94.98,
+      "explanation": "The dog saw the ambulance on the last day he saw her, not on the day she didn't come. On that day, he only saw her parents."
+    },
+    "13": {
+      "answer": "No",
+      "timing": 151.94,
+      "explanation": "The dog isn't happily remembering her. The story is telling the tale of the last day he saw her, and at the end it's noted that her face is \"half hazy forgotten\"."
+    },
+    "14": {
+      "answer": "No",
+      "timing": 310.76,
+      "explanation": "The narrator was called \"young man\" and there is no evidence that he is a young boy. "
+    },
+    "15": {
+      "answer": "No",
+      "timing": 128.55,
+      "explanation": "By the narrator's description, the instrument pierced through his ear, not just cleaned it. \"...culminated in a sudden sharp, burning pain in my ear, followed by a rush of cold liquid\" describes not the cleaning of ears, but possibly of something being injected into some part of them."
+    },
+    "16": {
+      "answer": "No",
+      "timing": 97.38,
+      "explanation": "There is no evidence that the older woman's voice was his mother. He describes first hearing as, \"A voice came from the darkness. It sounded like an older woman's voice.\" There was no recognition of her voice."
+    },
+    "17": {
+      "answer": "No",
+      "timing": 68.49,
+      "explanation": "The figure raised their finger to their mouth once. Then the woman told him to quiet down, but the figures didn't tell him twice again, just rolled their eyes and held him down."
+    },
+    "18": {
+      "answer": "Yes",
+      "timing": 10.48
+    },
+    "19": {
+      "answer": "Yes",
+      "timing": 6.31
+    },
+    "20": {
+      "answer": "No",
+      "timing": 252.27,
+      "explanation": "The story begins as the narrator speaks about Casey taking a job as a maid that she didn't want because she needed the money."
+    },
+    "21": {
+      "answer": "No",
+      "timing": 65.69,
+      "explanation": "There was no Mark speaking with an old painter. The story goes on to describe an older woman, Meredith, and how Casey came upon the maid job."
+    },
+    "22": {
+      "answer": "No",
+      "timing": 102.39,
+      "explanation": "The story goes on to describe that the maid work Casey was doing for Meredith was easy because Meredith had a modest, well-kept home. Casey is described as getting paid $300 per week for cleaning twice each week, and how Meredith approaches Casey, gifting a canvas and other supplies while asking Casey to paint her in her 30s."
+    },
+    "23": {
+      "answer": "No",
+      "timing": 51.49,
+      "explanation": "As the painting is finished, Meredith praises Casey for her work and is very happy. However, Meredith then asked to sign the painting as \"Reynaldo\" rather than her own, to which Casey refuses, upsetting Meredith. "
+    },
+    "24": {
+      "answer": "No",
+      "timing": 89.04,
+      "explanation": "Meredith, in her upsetment, destroys the painting Casey had done. Casey approaches Meredith while she's crying in her room, asking for Meredith to pay her. Meredith pays and Casey leaves angrily. "
+    },
+    "25": {
+      "answer": "No",
+      "timing": 65.06,
+      "explanation": "Although Casey was able to pay her rent, she refused to go back to her cleaning job for Meredith. She's met with anger from the grocery store's manager and ends up needing to panhandle at a local coffee shop for money. "
+    },
+    "26": {
+      "answer": "No",
+      "timing": 47.27,
+      "explanation": "In the end, Casey realizes that she could have simply signed the painting as \"Reynaldo\" and continue to earn money and regrets her prideful denial, which left her worse off than before."
+    },
+    "27": {
+      "answer": "Yes",
+      "timing": 136.49
+    },
+    "28": {
+      "answer": "Yes",
+      "timing": 14.82
+    },
+    "29": {
+      "answer": "Yes",
+      "timing": 14.21
+    },
+    "30": {
+      "answer": "Yes",
+      "timing": 7.65
+    },
+    "31": {
+      "answer": "Yes",
+      "timing": 9.94
+    },
+    "32": {
+      "answer": "Yes",
+      "timing": 2.33
+    },
+    "33": {
+      "answer": "Yes",
+      "timing": 90.29
+    },
+    "34": {
+      "answer": "Yes",
+      "timing": 3.9
+    },
+    "35": {
+      "answer": "Yes",
+      "timing": 6.17
+    },
+    "36": {
+      "answer": "Yes",
+      "timing": 4.15
+    },
+    "37": {
+      "answer": "Yes",
+      "timing": 5.42
+    },
+    "38": {
+      "answer": "Yes",
+      "timing": 4.19
+    },
+    "39": {
+      "answer": "Yes",
+      "timing": 5.56
+    },
+    "40": {
+      "answer": "Yes",
+      "timing": 90.36
+    },
+    "41": {
+      "answer": "Yes",
+      "timing": 4.16
+    },
+    "42": {
+      "answer": "Yes",
+      "timing": 5.09
+    },
+    "43": {
+      "answer": "Yes",
+      "timing": 6.5
+    },
+    "44": {
+      "answer": "Yes",
+      "timing": 5.87
+    },
+    "45": {
+      "answer": "Yes",
+      "timing": 2.61
+    },
+    "46": {
+      "answer": "Yes",
+      "timing": 4.38
+    },
+    "47": {
+      "answer": "Yes",
+      "timing": 3.1
+    },
+    "48": {
+      "answer": "No",
+      "timing": 42.04,
+      "explanation": "Destiny screamed after being \"plunged into darkness\", she had not yet felt the body."
+    },
+    "49": {
+      "answer": "Yes",
+      "timing": 6.88
+    },
+    "50": {
+      "answer": "Yes",
+      "timing": 105.71
+    },
+    "51": {
+      "answer": "Yes",
+      "timing": 7.44
+    },
+    "52": {
+      "answer": "Yes",
+      "timing": 9.8
+    },
+    "53": {
+      "answer": "Yes",
+      "timing": 8.39
+    },
+    "54": {
+      "answer": "Yes",
+      "timing": 7.69
+    },
+    "55": {
+      "answer": "Yes",
+      "timing": 6.43
+    },
+    "56": {
+      "answer": "Yes",
+      "timing": 2.23
+    },
+    "57": {
+      "answer": "Yes",
+      "timing": 3.85
+    },
+    "58": {
+      "answer": "Yes",
+      "timing": 9.45
+    },
+    "59": {
+      "answer": "Yes",
+      "timing": 12.26
+    },
+    "60": {
+      "answer": "Yes",
+      "timing": 172.06
+    },
+    "61": {
+      "answer": "Yes",
+      "timing": 4.38
+    },
+    "62": {
+      "answer": "Yes",
+      "timing": 4.32
+    },
+    "63": {
+      "answer": "Yes",
+      "timing": 2.96
+    },
+    "64": {
+      "answer": "Yes",
+      "timing": 5.3
+    },
+    "65": {
+      "answer": "Yes",
+      "timing": 11.57
+    },
+    "66": {
+      "answer": "Yes",
+      "timing": 12.24
+    },
+    "67": {
+      "answer": "Yes",
+      "timing": 4.41
+    },
+    "68": {
+      "answer": "Yes",
+      "timing": 292.17
+    },
+    "69": {
+      "answer": "Yes",
+      "timing": 11.41
+    },
+    "70": {
+      "answer": "Yes",
+      "timing": 6.56
+    },
+    "71": {
+      "answer": "Yes",
+      "timing": 6.05
+    },
+    "72": {
+      "answer": "Yes",
+      "timing": 5.17
+    },
+    "73": {
+      "answer": "Yes",
+      "timing": 4.83
+    },
+    "74": {
+      "answer": "Yes",
+      "timing": 6.6
+    },
+    "75": {
+      "answer": "Yes",
+      "timing": 9.88
+    },
+    "76": {
+      "answer": "Yes",
+      "timing": 4.15
+    },
+    "77": {
+      "answer": "Yes",
+      "timing": 3.83
+    },
+    "78": {
+      "answer": "Yes",
+      "timing": 4.83
+    },
+    "79": {
+      "answer": "Yes",
+      "timing": 4.69
+    },
+    "80": {
+      "answer": "Yes",
+      "timing": 3.99
+    },
+    "81": {
+      "answer": "Yes",
+      "timing": 5.28
+    },
+    "82": {
+      "answer": "Yes",
+      "timing": 407.72
+    },
+    "83": {
+      "answer": "Yes",
+      "timing": 9.17
+    },
+    "84": {
+      "answer": "No",
+      "timing": 60.88,
+      "explanation": "The story started with Sorrow and continued on to various emotions and states of being."
+    },
+    "85": {
+      "answer": "Yes",
+      "timing": 34.03
+    },
+    "86": {
+      "answer": "Yes",
+      "timing": 13.49
+    },
+    "87": {
+      "answer": "Yes",
+      "timing": 274.27
+    },
+    "88": {
+      "answer": "No",
+      "timing": 88.39,
+      "explanation": "The initial accident led to one more accident the following year, and she only began having memory problems several months ago."
+    },
+    "89": {
+      "answer": "Yes",
+      "timing": 13.15
+    },
+    "90": {
+      "answer": "Yes",
+      "timing": 7.24
+    },
+    "91": {
+      "answer": "Yes",
+      "timing": 20.52
+    },
+    "92": {
+      "answer": "N/A, just commentary",
+      "timing": 1.6
+    },
+    "93": {
+      "answer": "Yes",
+      "timing": 367.21
+    },
+    "94": {
+      "answer": "Yes",
+      "timing": 13.74
+    },
+    "95": {
+      "answer": "Yes",
+      "timing": 9.45
+    },
+    "96": {
+      "answer": "Yes",
+      "timing": 8.38
+    },
+    "97": {
+      "answer": "Yes",
+      "timing": 283.47
+    },
+    "98": {
+      "answer": "Yes",
+      "timing": 20.79
+    },
+    "99": {
+      "answer": "Yes",
+      "timing": 6.51
+    },
+    "100": {
+      "answer": "Yes",
+      "timing": 3.7
+    },
+    "101": {
+      "answer": "Yes",
+      "timing": 15.73
+    },
+    "102": {
+      "answer": "Yes",
+      "timing": 8.48
+    },
+    "103": {
+      "answer": "Yes",
+      "timing": 154.65
+    },
+    "104": {
+      "answer": "Yes",
+      "timing": 2.96
+    },
+    "105": {
+      "answer": "No",
+      "timing": 72.83,
+      "explanation": "Sarah leapt out of the window with inhuman speed, not an inhuman distance as described in the story."
+    },
+    "106": {
+      "answer": "Yes",
+      "timing": 11.28
+    },
+    "107": {
+      "answer": "Yes",
+      "timing": 7.67
+    }
+  },
   "test": {
     "0": {
       "answer": "No",
