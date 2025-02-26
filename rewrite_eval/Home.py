@@ -186,7 +186,7 @@ if __name__ == "__main__":
         st.markdown(
             'Please enter your assigned user ID below to start the task. You can stop the task and revisit it later. Your progress will be saved connected to your user ID. Answer each question carefully as you will not be able to go back to a previous question once you have answered it. **Read each comparison question carefully as the ordering of options changes.**')
 
-        valid_ids = ['test1', 'test2', 'test3']
+        valid_ids = ['test', '123', '234', '345']
         if st.session_state["userID"] == "" or st.session_state["userID"] not in valid_ids:
             st.session_state["userID"] = st.text_input("Enter your assigned user ID:")
         if st.session_state["userID"] in valid_ids:
