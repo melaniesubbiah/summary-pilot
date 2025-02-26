@@ -62,7 +62,20 @@
             "Daniel tells his father that going to rehab is a good idea after waking up in the hospital again."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            2,
+            0,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+        ]
     },
     "bb2f48936f8641a69d825f356ae89f7d": {
         "label": 0,
@@ -107,7 +120,15 @@
             "Daniel decides to accept his rehab."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            2,
+            0,
+            3,
+            0,
+            3,
+            0
+        ]
     },
     "5dcae5af26a941a6bf03ac044f86c6ab": {
         "label": 0,
@@ -156,7 +177,18 @@
             "The story suggests that Daniel is struggling with substance abuse or mental health issues."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            2,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "c6799a45e9b344268da6bcc6da0caa4b": {
         "label": 0,
@@ -191,7 +223,13 @@
             "The businessman buys Aphrodite a cell phone."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            0,
+            0,
+            1
+        ]
     },
     "8c0cc43de7b84829a36bf058d2fe7dcd": {
         "label": 1,
@@ -227,7 +265,14 @@
             "Aphrodite hopes to learn more about modern flirting practices through the cell phone."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            1,
+            0,
+            1
+        ]
     },
     "a0b5cd1df93c41bebcddd2423e91c090": {
         "label": 1,
@@ -264,7 +309,15 @@
             "The story suggests that Aphrodite must learn how modern human attraction and relationships work to maintain her power as the goddess of love."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "23595acba8c341369cae2329680f972a": {
         "label": 0,
@@ -302,7 +355,14 @@
             "The man is left to wonder if the experience in the white room was real."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            1,
+            0,
+            3,
+            0
+        ]
     },
     "172e75a09ab94fdb897d8f66af667f7b": {
         "label": 0,
@@ -339,7 +399,14 @@
             "The protagonist finds themselves alone on a wet road after the figures disappear."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            2,
+            0,
+            0,
+            0,
+            3
+        ]
     },
     "0b08649def5b4a13aa68f784227fc004": {
         "label": 0,
@@ -381,7 +448,16 @@
             "The man notices he is holding a lollipop in his hand after being returned to the road."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+        ]
     },
     "9126a17d119b411c9909d3336d5c2b0f": {
         "label": 0,
@@ -419,7 +495,14 @@
             "Kristen Santos's father and brother pick up Anne in shock after Kristen's disappearance."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
     },
     "836ed1ca86dd4918a13cd363751e1932": {
         "label": 0,
@@ -455,7 +538,13 @@
             "Kristen's father apologizes for what has happened at the end of the story."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            1,
+            1,
+            2
+        ]
     },
     "d36fc509876d488497ed6c535e004961": {
         "label": 0,
@@ -493,7 +582,15 @@
             "The story suggests that the family's fortune was gained at the cost of the lives of the mother's first two children, Kristen and Amber."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            4,
+            0,
+            0,
+            4,
+            4
+        ]
     },
     "c54782a400054013b982a02f77e95e39": {
         "label": 0,
@@ -529,7 +626,14 @@
             "Mr. Spiegel leaves the scene while whistling."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
     },
     "6b01d59b368d4b3a8d898b216a894f4d": {
         "label": 1,
@@ -564,7 +668,14 @@
             "The official is left contemplating the destructive power of Spiegel's abilities."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "672780c97df6459e8f1956d30d90284b": {
         "label": 0,
@@ -612,7 +723,16 @@
             "Spiegel's powers and disregard for morality are presented as a threat to humanity."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "11b76f7ce5184477a4cda3e0e408ef09": {
         "label": 0,
@@ -647,7 +767,13 @@
             "The same voice that the rescue team had been communicating with asked over the radio when the rescue team was coming to get him."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            0,
+            0,
+            2
+        ]
     },
     "3440f56c79224d59baab98041514a6f3": {
         "label": 0,
@@ -682,7 +808,13 @@
             "The rescue team is left wondering about the identity of the person they have been communicating with via the radio."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            2,
+            0,
+            0,
+            5
+        ]
     },
     "54d7054c6c2a434cb1a02da48e505e47": {
         "label": 0,
@@ -722,7 +854,15 @@
             "The voice of the other trapped person asks over the radio when the rescue team will come for him."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            5,
+            5,
+            5
+        ]
     },
     "a200ddea173241fc91ccb2c5d5a7edc0": {
         "label": 1,
@@ -749,7 +889,12 @@
             "Heaven reassures Destiny that they can now play together in the basement."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            5,
+            2,
+            5
+        ]
     },
     "1c19e25cbfe64b269042b3bdbf916aca": {
         "label": 1,
@@ -783,7 +928,13 @@
             "Heaven tells Destiny they can now play together."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            0,
+            3
+        ]
     },
     "179476e1dcda44e69700959efe0e3aa7": {
         "label": 0,
@@ -821,7 +972,14 @@
             "The story suggests Heaven's father lured Destiny into the basement with the intention to harm or kill her."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            5,
+            2,
+            5,
+            0
+        ]
     },
     "991c2594c74d4fc48f9a1670de5b3ef9": {
         "label": 1,
@@ -853,7 +1011,13 @@
             "The man intends to find a new heart to call his own after resting."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "405e738d32d143438cfee5a6f503fd2d": {
         "label": 0,
@@ -884,7 +1048,12 @@
             "8. The narrator reflects on finding a new heart to call his own in the future."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "6c082affa2fc461c91863c4f79e7221e": {
         "label": 0,
@@ -927,7 +1096,16 @@
             "The story presents a disturbing and sinister interpretation of romance and love."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "1472f500f5d94abbb2b94848e229bc8b": {
         "label": 0,
@@ -959,7 +1137,12 @@
             "The narrator finds that their mother retains her wit and humor even in death."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            1,
+            0
+        ]
     },
     "e37c62ee9b62445287a21b99c8b62b1f": {
         "label": 0,
@@ -992,7 +1175,13 @@
             "The story ends with the protagonist feeling comforted by their mother's voice."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            1,
+            0
+        ]
     },
     "31dc61cff09942a9896d116dc131066e": {
         "label": 0,
@@ -1029,7 +1218,15 @@
             "The story suggests that the narrator has a complex relationship with the supernatural ability to hear the dead."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "0fccf6c1d6744b69bc29ef1ec453d7bb": {
         "label": 1,
@@ -1062,7 +1259,13 @@
             "The murderer receives love letters."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            4,
+            0,
+            0,
+            0
+        ]
     },
     "7140ac1509444571b518ae0378c56152": {
         "label": 1,
@@ -1104,7 +1307,16 @@
             "The killer received love letters from fans after becoming famous."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "26ac9c7c262c4be3be8846dd0a2f084c": {
         "label": 0,
@@ -1152,7 +1364,17 @@
             "The story critiques how true crime shows can exploit and misrepresent tragic events."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "89be8ee89b3b4336938289e9c2fe452f": {
         "label": 0,
@@ -1182,7 +1404,12 @@
             "The protagonist hopes to help Margot find a girlfriend."
         ],
         "split": "val",
-        "model": "text-davinci-003"
+        "model": "text-davinci-003",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "5895fa7d78264dfc848609d8feb41e34": {
         "label": 0,
@@ -1223,7 +1450,15 @@
             "Margot cannot escape from the isolated cabin."
         ],
         "split": "val",
-        "model": "chatGPT"
+        "model": "chatGPT",
+        "subjective": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ]
     },
     "4044f0016b7842709406c52ad9303732": {
         "label": 0,
@@ -1265,7 +1500,16 @@
             "The story ends with the revelation that Jane's concern for Margot's well-being is a facade for her own selfish and unethical goals."
         ],
         "split": "val",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "79115223876469740491077b01": {
         "label": 0,
@@ -1327,7 +1571,20 @@
             "The narrator suggests that the spirit of hope defines humanity in a grim and desolate universe."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "81670585335894791077b01": {
         "label": 1,
@@ -1371,7 +1628,15 @@
             "The narrator implies that the universe is mostly composed of repulsive energy and emptiness."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "73409150676328394731077b01": {
         "label": 1,
@@ -1401,7 +1666,13 @@
             "The story concludes with the observer expressing hope for the survival and success of humans."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            1,
+            0,
+            0
+        ]
     },
     "791152238764697404910ppjk4": {
         "label": 1,
@@ -1441,7 +1712,15 @@
             "After the meeting, the man suddenly feels a sense of control and ownership over his own life."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "816705853358947910ppjk4": {
         "label": 1,
@@ -1490,7 +1769,17 @@
             "The ending hints at a potential epiphany or a new perspective on the protagonist's life's struggles."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "734091506763283947310ppjk4": {
         "label": 0,
@@ -1524,7 +1813,13 @@
             "9. The man learns to appreciate the present moment through his experiences on the bench."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            1,
+            0
+        ]
     },
     "7911522387646974049115rnsc": {
         "label": 1,
@@ -1566,7 +1861,16 @@
             "Casey laments her missed opportunity of getting paid well for painting due to her prideful behavior."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+        ]
     },
     "8167058533589479115rnsc": {
         "label": 1,
@@ -1617,7 +1921,19 @@
             "Casey ends up in a worse financial situation than before after refusing to sign the painting as \"Reynaldo.\""
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            5,
+            0
+        ]
     },
     "7340915067632839473115rnsc": {
         "label": 0,
@@ -1659,7 +1975,15 @@
             "Casey regrets losing out on the opportunity to make money through her art."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            1,
+            0,
+            5,
+            0
+        ]
     },
     "7911522387646974049119uvro": {
         "label": 1,
@@ -1696,7 +2020,15 @@
             "Hope believes that assuming the identity of Hope Elizabeth Scott may give her the opportunity to break the curse."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479119uvro": {
         "label": 0,
@@ -1749,7 +2081,17 @@
             "Hope suggests that perhaps \"Hope does die last\" after all."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
     },
     "7340915067632839473119uvro": {
         "label": 0,
@@ -1785,7 +2127,12 @@
             "12. The recently deceased infant shares the same name as Hope."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            2,
+            0,
+            1
+        ]
     },
     "79115223876469740492aryso": {
         "label": 0,
@@ -1822,7 +2169,15 @@
             "The story suggests that survival on the train requires a balance of staying sober, timing jumps perfectly, and evading the headmaster's efforts to prevent the journey from becoming a free tour."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+        ]
     },
     "81670585335894792aryso": {
         "label": 0,
@@ -1865,7 +2220,16 @@
             "The ultimate fate of Damian on the \"death train\" is left uncertain."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
     },
     "73409150676328394732aryso": {
         "label": 0,
@@ -1898,7 +2262,13 @@
             "The headmaster's bending of the rules is to prevent the train from becoming an attraction."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            4,
+            0,
+            0
+        ]
     },
     "7911522387646974049a94gm7": {
         "label": 0,
@@ -1944,7 +2314,16 @@
             "The author realizes his mother's memory is rapidly deteriorating."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479a94gm7": {
         "label": 1,
@@ -1989,7 +2368,16 @@
             "The story concludes by highlighting the narrator's efforts to bring joy to their mother during a difficult time."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473a94gm7": {
         "label": 0,
@@ -2014,7 +2402,12 @@
             "1. A woman's mother has aged. \n2. The woman's mother has suffered from multiple injuries. \n3. The injuries have caused the woman's mother to lose her independence. \n4. The injuries have affected the woman's mother's vibrant personality. \n5. The woman's mother has memory problems. \n6. The woman's mother's memory problems are worsening. \n7. The woman plans to give her mother a special gift. \n8. The special gift planned by the woman is honeycombs. \n9. The woman's mother used to enjoy honeycombs as a child. \n10. The woman's mother has forgotten about her enjoyment of honeycombs. \n11. This Christmas will be the woman's mother's last Christmas. \n12. The gift of honeycombs is considered even more meaningful because it is the woman's mother's last Christmas."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            3,
+            1
+        ]
     },
     "7911522387646974049eqx23f": {
         "label": 0,
@@ -2067,7 +2460,19 @@
             "This realization sends the storyteller into horror."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479eqx23f": {
         "label": 0,
@@ -2113,7 +2518,18 @@
             "The boy was home alone during both incidents when the decorative beer mug fell from the top of the fridge."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473eqx23f": {
         "label": 1,
@@ -2152,7 +2568,15 @@
             "The narrator could not find a rational explanation for the occurrences."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
     },
     "7911522387646974049g1cebe": {
         "label": 1,
@@ -2188,7 +2612,14 @@
             "The story concludes with the narrator's silence being shattered."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479g1cebe": {
         "label": 1,
@@ -2197,13 +2628,16 @@
         "summary": [
             "In this haunting story, the narrator is a person who has the ability to see and hear ghosts, which they initially enjoyed as a child but now find to be a curse.",
             "The ghosts constantly haunt the narrator, preventing them from finding peace and rest.",
-            "One day, after witnessing a particularly distressing scene involving a ghost and a stray dog, the narrator decides to check themselves into an asylum in hopes of finding solace.At the asylum, the narrator is greeted by a caring staff and a gentle doctor who promises to keep the ghosts at bay.",
+            "One day, after witnessing a particularly distressing scene involving a ghost and a stray dog, the narrator decides to check themselves into an asylum in hopes of finding solace.",
+            "At the asylum, the narrator is greeted by a caring staff and a gentle doctor who promises to keep the ghosts at bay.",
             "The narrator spends their days in a peaceful haze, occasionally interacting with other patients and enjoying the silence within the walls of the asylum, despite the presence of numerous ghosts outside the fence.",
             "However, the story takes a chilling turn when the narrator is awakened by a police officer who informs them that the hospital has been closed for years.",
             "This revelation shatters the narrator's illusion of peace, leaving them falling through the air as the silence around them is shattered.",
             "The ending suggests that the narrator's experiences at the asylum were either a delusion or a supernatural occurrence, leaving the reader to ponder the true nature of the narrator's reality."
         ],
         "errors": [
+            1,
+            1,
             1,
             1,
             1,
@@ -2234,7 +2668,17 @@
             "The story leaves the reader to ponder the true nature of the narrator's reality."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ]
     },
     "7340915067632839473g1cebe": {
         "label": 0,
@@ -2263,7 +2707,12 @@
             "6. The protagonist's current state of peacefulness is left unexplained."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            1
+        ]
     },
     "7911522387646974049i6ry99": {
         "label": 0,
@@ -2296,7 +2745,13 @@
             "The protagonist notes a disturbing sense of satisfaction and naturalness in their violent acts."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            2,
+            0,
+            0,
+            1
+        ]
     },
     "8167058533589479i6ry99": {
         "label": 1,
@@ -2347,7 +2802,18 @@
             "The story suggests the narrator may have underlying psychological issues or supernatural tendencies that lead to their violent behavior."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473i6ry99": {
         "label": 0,
@@ -2376,7 +2842,12 @@
             "The narrator feels that killing their cousin is both natural and satisfying."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            1,
+            0,
+            0
+        ]
     },
     "7911522387646974049i9mo1w": {
         "label": 0,
@@ -2419,7 +2890,16 @@
             "The protagonist immediately recognizes the girl as their cousin."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479i9mo1w": {
         "label": 1,
@@ -2468,7 +2948,20 @@
             "The narrator immediately realized that the girl was their cousin, although they didn't learn the reason for her confinement in the basement until later."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473i9mo1w": {
         "label": 0,
@@ -2500,7 +2993,12 @@
             "Lance and the narrator feel relieved upon discovering their cousin."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            2
+        ]
     },
     "7911522387646974049ifb4eq": {
         "label": 0,
@@ -2555,7 +3053,16 @@
             "The story conveys that simple gestures of compassion can greatly impact life around us."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479ifb4eq": {
         "label": 1,
@@ -2609,7 +3116,20 @@
             "The importance of caring for one another is emphasized through the relationship between the human and the tree."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473ifb4eq": {
         "label": 1,
@@ -2631,7 +3151,12 @@
             "1. A tree is dying in a dry forest. \n2. A human provides water and care to the dying tree. \n3. The tree, after receiving water and care from the human, is able to grow. \n4. The tree, after receiving water and care from the human, is able to bloom. \n5. The growth and blooming of the tree bring joy to the human who helped it. \n6. The growth and blooming of the tree bring hope to the human who helped it. \n7. The tree learns that with a little help, life can persevere. \n8. The tree learns that there is always hope with a little help."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "7911522387646974049j3pa4l": {
         "label": 1,
@@ -2669,7 +3194,15 @@
             "The voice's message suggests that the narrator might be part of a simulation or a programmed entity."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479j3pa4l": {
         "label": 0,
@@ -2725,7 +3258,19 @@
             "The protagonist's memory is erased at the end of the story."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473j3pa4l": {
         "label": 0,
@@ -2755,7 +3300,11 @@
             "8. After being reset, the protagonist continues their duty of killing the creatures."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            3,
+            3
+        ]
     },
     "7911522387646974049jkc5q3": {
         "label": 1,
@@ -2789,7 +3338,13 @@
             "Kyle realized he had kissed a ghost after hearing the local man's story."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479jkc5q3": {
         "label": 1,
@@ -2844,7 +3399,20 @@
             "Kyle realizes he hadn't kissed Elizabeth, but rather her ghost."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473jkc5q3": {
         "label": 1,
@@ -2872,7 +3440,12 @@
             "It is revealed that Kyle had actually kissed Elizabeth's ghost."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "7911522387646974049jz0uy6": {
         "label": 0,
@@ -2910,7 +3483,13 @@
             "Toby experiences intense pain and fear as the woman removes his teeth."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            2
+        ]
     },
     "8167058533589479jz0uy6": {
         "label": 0,
@@ -2969,7 +3548,19 @@
             "The fate of Toby after the mysterious woman grabs his tooth is left uncertain."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+        ]
     },
     "7340915067632839473jz0uy6": {
         "label": 1,
@@ -2997,7 +3588,12 @@
             "The supernatural creature forcefully extracts one of Toby's teeth."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "7911522387646974049kjpf0z": {
         "label": 0,
@@ -3042,7 +3638,15 @@
             "Tomorrow cherishes the fervor of The Girl's promises to see him."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479kjpf0z": {
         "label": 0,
@@ -3091,7 +3695,17 @@
             "Tomorrow is determined to meet the little girl again."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473kjpf0z": {
         "label": 0,
@@ -3116,7 +3730,12 @@
             "1. The story features a stray dog named Tomorrow. \n2. Tomorrow lives on the streets. \n3. Tomorrow has a special bond with a little girl. \n4. The little girl feeds Tomorrow. \n5. One day, the little girl does not show up to feed Tomorrow. \n6. Tomorrow learns that the little girl has been taken to the hospital. \n7. Tomorrow waits for the little girl despite harsh conditions. \n8. Tomorrow is determined to see the little girl again."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            5,
+            1,
+            0
+        ]
     },
     "7911522387646974049o5b58g": {
         "label": 0,
@@ -3156,7 +3775,15 @@
             "The narrator wonders how to deal with his growing dragon problem."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            4
+        ]
     },
     "8167058533589479o5b58g": {
         "label": 1,
@@ -3210,7 +3837,19 @@
             "The protagonist contemplates the possibility of growing their dragon's hoard and size by repeating the process."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+        ]
     },
     "7340915067632839473o5b58g": {
         "label": 0,
@@ -3239,7 +3878,11 @@
             "8. The protagonist acquires a hoard of coins by the end of the story."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            3
+        ]
     },
     "7911522387646974049we8usc": {
         "label": 0,
@@ -3310,7 +3953,21 @@
             "The business card indicates that satisfaction in life is hard to attain and requires constant effort."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479we8usc": {
         "label": 1,
@@ -3365,7 +4022,18 @@
             "Try more often.\""
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473we8usc": {
         "label": 0,
@@ -3401,7 +4069,14 @@
             "Life learns a lesson to strive for satisfaction in all aspects of his life."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0,
+            3,
+            3
+        ]
     },
     "7911522387646974049woglbn": {
         "label": 1,
@@ -3443,7 +4118,15 @@
             "The man is convinced that losing his life, career, and brother was worth it to obtain the idol."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479woglbn": {
         "label": 1,
@@ -3499,7 +4182,18 @@
             "The phrase \"It was worth it\" is repeated throughout the story, emphasizing the narrator's determination."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473woglbn": {
         "label": 0,
@@ -3531,7 +4225,12 @@
             "The protagonist justifies all of the sacrifices made to obtain the idol by the sense of power and control it gives him."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     },
     "7911522387646974049y44vzl": {
         "label": 0,
@@ -3573,7 +4272,15 @@
             "Mary Ann approaches August one night revealing that she is \"in trouble.\""
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+        ]
     },
     "8167058533589479y44vzl": {
         "label": 0,
@@ -3630,7 +4337,20 @@
             "Mary Ann's revelation to August set the stage for the next part of his adventure."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473y44vzl": {
         "label": 0,
@@ -3660,7 +4380,12 @@
             "August and Mary Ann talk about Mary Ann being in trouble."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            1
+        ]
     },
     "7911522387646974049yg4uzo": {
         "label": 0,
@@ -3692,7 +4417,16 @@
             "1. The story is set in East Los Angeles. \n2. There is a rumored killer known as the \"Half Moon Killer\" who preys on people during half-moon nights in East Los Angeles. \n3. Karla, the narrator of the story, believes there might be some truth to the rumors about the Half Moon Killer. \n4. Karla's friends, Mike and Danielle, are skeptical about the existence of the Half Moon Killer. \n5. On a night with a half-moon, Karla, Mike, and Danielle encounter a strangely dressed man on the road while returning home from a party. \n6. The strangely dressed man they encounter is revealed to be the Half Moon Killer. \n7. The Half Moon Killer kills Mike and Danielle. \n8. Karla manages to escape from the Half Moon Killer and runs to a nearby convenience store for safety. \n9. The Half Moon Killer follows Karla to the convenience store. \n10. Karla overpowers and kills the Half Moon Killer in self-defense inside the convenience store. \n11. Two months after the incident, Karla is celebrated as a hero for ending the Half Moon Killer's reign of terror. \n12. Following the death of the Half Moon Killer, there is news of a possible \"Full Moon Killer\" in the city, causing further suspense and fear."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "8167058533589479yg4uzo": {
         "label": 1,
@@ -3736,7 +4470,16 @@
             "The news report mentions the emergence of a possible copycat killer, the Fullmoon Killer."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7340915067632839473yg4uzo": {
         "label": 1,
@@ -3767,7 +4510,13 @@
             "8. The media is covering the story of another potential serial killer known as the Fullmoon Killer."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "7911522387646974049ypukwu": {
         "label": 0,
@@ -3810,7 +4559,16 @@
             "Mark realizes that life consists of little ephemeral moments that make it worthwhile."
         ],
         "split": "test",
-        "model": "gpt-4"
+        "model": "gpt-4",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+        ]
     },
     "8167058533589479ypukwu": {
         "label": 1,
@@ -3860,7 +4618,19 @@
             "Cosmo and Mark sit together, contemplating the crashing waves and the ephemeral nature of existence."
         ],
         "split": "test",
-        "model": "claude"
+        "model": "claude",
+        "subjective": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
     },
     "7340915067632839473ypukwu": {
         "label": 1,
@@ -3889,6 +4659,11 @@
             "Through observing the fleeting moments of nature, the two men come to a deeper understanding of the meaning of life."
         ],
         "split": "test",
-        "model": "gpt-3.5-turbo-instruct"
+        "model": "gpt-3.5-turbo-instruct",
+        "subjective": [
+            0,
+            0,
+            0
+        ]
     }
 }

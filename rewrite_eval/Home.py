@@ -144,7 +144,7 @@ if __name__ == "__main__":
         st.markdown(instructions)
 
     # Load stories
-    with open('rewrite_eval/storysumm.json', 'r') as f:
+    with open('rewrite_eval/storysumm_w_subj.json', 'r') as f:
         storysumm = json.load(f)
 
     # Load the data
