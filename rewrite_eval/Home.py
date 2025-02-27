@@ -118,9 +118,9 @@ def explanation_q():
     else:
     	unpref = "alternate"
     	pref = ":orange[orange sentence]"
-    st.markdown(f"Consider the following issues with the **{unpref}**. In this case, terms like \"the summary\" or \"sentence\" refer to the **{unpref}**.")
+    st.markdown(f"###### Consider the following issues with the **{unpref}**. In this case, terms like \"the summary\" or \"sentence\" refer to the **{unpref}**.")
     for i, exp in enumerate(claims[st.session_state['pageNum']]['explanation']):
-        st.markdown(f"**Issue {i+1}:** {exp}")
+        st.markdown(f"> **Issue {i+1}:** {exp}")
         st.radio(
             f"Is this issue an important part of why the {pref} is better?",
             choices,
@@ -235,7 +235,7 @@ if __name__ == "__main__":
                     next_disabled = True
         else:
             # Show the rewrite (but actually this is the original)
-            st.markdown(f"> **Alternate:** {claims[st.session_state['pageNum']]['rewrite']}")
+            st.markdown(f"> ##### **Alternate:** {claims[st.session_state['pageNum']]['rewrite']}")
 
             if st.session_state["qpart"] == 1:
                 # Ask about the rewrite
