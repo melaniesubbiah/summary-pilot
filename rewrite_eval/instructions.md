@@ -1,5 +1,5 @@
 ### Task Description
-In this task, you will be presented with a short story, along with a summary of the story. Please read both the story and the summary carefully. You will then be asked a question related to one of the summary sentences.
+In this task, you will be presented with a short story, along with a summary of the story. Please read the story carefully. You will then be asked some questions related to one of the summary sentences. Read the summary to understand the context around the sentence in question.
 
 **Warning:** Some of the stories may contain content that readers could find offensive, disturbing, or otherwise unsettling. If you do not feel comfortable with this, please feel free to decline the task.
 
@@ -26,7 +26,7 @@ Below are two example summaries for this story:\
 
 ---
 
-The questions will ask you to evaluate the summary *sentence by sentence against the story.*
+The first question will ask you to evaluate a summary sentence.
 
 ##### Question: Is this sentence in the summary consistent with the story?
 
@@ -47,6 +47,18 @@ For summary B:
 For every line marked inconsistent, provide a short explanation for your answer selection. For example, for the line from **Summary B**: "He is shot while lying in a puddle of water near the hospital wall.", a possible response is:
 
 This line is inconsistent with the story since the minister was sitting in the puddle of water in the story instead of lying in it.
+
+The next panel will show you an alternate version of the summary sentence, and ask:
+
+##### Question: Would you swap the sentence in the summary with this alternate?
+
+You should answer **Yes** if the alternate sentence is more consistent with the story or clarifies any ambiguities you were unsure of in the sentence. If the opposite is true, then answer **No**. If they're both equally good/bad, then you can respond **Neutral**.
+
+In some cases, based on which version of the sentence you preferred, a final panel will ask you about some possible issues with the sentence you rejected. You will be shown an issue and asked:
+
+##### Question: Is this issue an important part of why you preferred the other sentence?
+
+You should answer **Yes** if you agree the described issue is a problem with the sentence you rejected. If you can see why the issue might be a problem but it doesn't feel important, you can answer **Neutral**. If you don't think the described issue is a problem, you should answer **No**.
 
 ---
 
