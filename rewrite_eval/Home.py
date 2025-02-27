@@ -108,8 +108,8 @@ def rewrite_q():
 def explanation_q():
     # Ask about the different parts of the explanation
     choices = [
-        "Yes, this issue is important.",
-        "Neutral, this difference between the sentences is okay but not necessary.",
+        "Yes, correcting this issue is important.",
+        "Neutral, correcting this issue is okay but not necessary.",
         "No, the issue described is irrelevant, unreasonable, or overly nitpicky.",
     ]
     if st.session_state[f"{st.session_state['pageNum']}_order"]:
@@ -118,11 +118,11 @@ def explanation_q():
     else:
     	unpref = "alternate"
     	pref = ":orange[orange sentence]"
-    st.markdown(f"Consider the following reasons why the **{pref}** sentence may be better than the **{unpref}**.")
+    st.markdown(f"Consider the following issues with the **{unpref}**. In this case, terms like \"the summary\" or \"sentence\" refer to the **{unpref}**.")
     for i, exp in enumerate(claims[st.session_state['pageNum']]['explanation']):
-        st.markdown(f"**Reason {i}:** {exp}")
+        st.markdown(f"**Issue {i}:** {exp}")
         st.radio(
-            f"Is this issue an important part of why the {pref} sentence is better?",
+            f"Is this issue an important part of why the {pref} is better?",
             choices,
             key=f"q{st.session_state['pageNum']}_e_radio_{i}",
             index=None
