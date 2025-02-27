@@ -84,12 +84,12 @@ def consistent_q():
 def rewrite_q():
     # Ask whether the rewrite is preferred
     choices = [
-        "Yes, the rewrite is more accurate and clear.",
-        "No, the rewrite is worse than the orange sentence.",
+        "Yes, the alternate is more accurate and clear.",
+        "No, the alternate is worse than the orange sentence.",
         "Neutral, both sentences are similar quality.",
     ]
     st.radio(
-        "Would you swap the orange sentence in the summary with this rewrite?",
+        "Would you swap the orange sentence in the summary with this alternate?",
         choices,
         key=f"q{st.session_state['pageNum']}_r_radio",
         index=None
@@ -97,9 +97,9 @@ def rewrite_q():
     if st.session_state[f"q{st.session_state['pageNum']}_r_radio"]:
         if st.session_state[f"{st.session_state['pageNum']}_order"] == 0:
             if st.session_state[f"q{st.session_state['pageNum']}_r_radio"].startswith('Yes'):
-                st.session_state["rewrite"] = "No, the rewrite is worse than the orange sentence."
+                st.session_state["rewrite"] = "No, the alternate is worse than the orange sentence."
             elif st.session_state[f"q{st.session_state['pageNum']}_r_radio"].startswith('No'):
-                st.session_state["rewrite"] = "Yes, the rewrite is more accurate and clear."
+                st.session_state["rewrite"] = "Yes, the alternate is more accurate and clear."
             else:
                 st.session_state["rewrite"] = st.session_state[f"q{st.session_state['pageNum']}_r_radio"]
         else:
@@ -108,18 +108,18 @@ def rewrite_q():
 def explanation_q():
     # Ask about the different parts of the explanation
     choices = [
-        "Yes, correcting this issue improves the sentence.",
+        "Yes, correcting this issue is important.",
         "Neutral, correcting this issue is okay but not necessary.",
-        "No, the issue described is not a reasonable interpretation of the text or is overly nitpicky.",
+        "No, the issue described is irrelevant, unreasonable, or overly nitpicky.",
     ]
     if st.session_state[f"{st.session_state['pageNum']}_order"]:
-        st.markdown("Consider the following reasons why the **rewrite** may be better than the **:orange[orange sentence]**.")
+        st.markdown("Consider the following reasons for the differences in the **alternate** sentence relative to the **:orange[orange sentence]**.")
     else:
-        st.markdown("Consider the following reasons why the **:orange[orange sentence]** may be better than the **rewrite**.")
+        st.markdown("Consider the following reasons for the differences in the **:orange[orange sentence]** relative to the **alternate**.")
     for i, exp in enumerate(claims[st.session_state['pageNum']]['explanation']):
         st.markdown(f"**Reason {i}:** {exp}")
         st.radio(
-            "Is the issue described by this reasoning important to correct?",
+            "Is the issue described by this reasoning an important correction?",
             choices,
             key=f"q{st.session_state['pageNum']}_e_radio_{i}",
             index=None
@@ -232,7 +232,7 @@ if __name__ == "__main__":
                     next_disabled = True
         else:
             # Show the rewrite (but actually this is the original)
-            st.markdown(f"**Rewrite:** {claims[st.session_state['pageNum']]['rewrite']}")
+            st.markdown(f"**Alternate:** {claims[st.session_state['pageNum']]['rewrite']}")
 
             if st.session_state["qpart"] == 1:
                 # Ask about the rewrite
