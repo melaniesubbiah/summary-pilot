@@ -110,7 +110,7 @@ def explanation_q():
     choices = [
         "Yes, correcting this issue is important.",
         "Neutral, correcting this issue is okay but not necessary.",
-        "No, the issue described is irrelevant, unreasonable, or overly nitpicky.",
+        "No, this issue is irrelevant, unreasonable, or overly nitpicky.",
     ]
     if st.session_state[f"{st.session_state['pageNum']}_order"]:
     	pref = "alternate"
@@ -120,7 +120,7 @@ def explanation_q():
     	pref = ":orange[orange sentence]"
     st.markdown(f"Consider the following issues with the **{unpref}**. In this case, terms like \"the summary\" or \"sentence\" refer to the **{unpref}**.")
     for i, exp in enumerate(claims[st.session_state['pageNum']]['explanation']):
-        st.markdown(f"**Issue {i}:** {exp}")
+        st.markdown(f"**Issue {i+1}:** {exp}")
         st.radio(
             f"Is this issue an important part of why the {pref} is better?",
             choices,
@@ -235,7 +235,7 @@ if __name__ == "__main__":
                     next_disabled = True
         else:
             # Show the rewrite (but actually this is the original)
-            st.markdown(f"**Alternate:** {claims[st.session_state['pageNum']]['rewrite']}")
+            st.markdown(f"> **Alternate:** {claims[st.session_state['pageNum']]['rewrite']}")
 
             if st.session_state["qpart"] == 1:
                 # Ask about the rewrite
