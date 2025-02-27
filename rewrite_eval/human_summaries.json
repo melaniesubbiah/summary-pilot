@@ -35,7 +35,8 @@
       [
         "The summary sentence incorrectly presents events from the story. In reality, Daniel jumps into the water after the seal, and the seal whips its tail into Daniel's ribs causing him pain.",
         "The seal biting Daniel occurs in what appears to be a dream sequence or hallucination, not in the actual physical encounter. This important context is missing from the summary.",
-        "The detail about \"the teeth didn't break the skin, the skin broke the teeth\" happens specifically after Daniel realizes \"the dream is his\" and takes control of the situation. This crucial element of Daniel gaining control in the dream state needs to be included for accuracy."
+        "The detail about \"the teeth didn't break the skin, the skin broke the teeth\" happens specifically after Daniel realizes \"the dream is his\" and takes control of the situation. This crucial element of Daniel gaining control in the dream state needs to be included for accuracy.",
+        "The word \"teeth\" is only used once and it should be used twice."
       ],
       []
     ],
@@ -368,7 +369,8 @@
         "The summary incorrectly states that the team \"realizes\" something, but the original story doesn't explicitly mention any realization by the team.",
         "The summary incorrectly states that the team \"wonders who they were talking to,\" but the original story doesn't explicitly describe the team wondering this.",
         "The summary attributes specific thoughts and mental states to the team that aren't directly stated in the text, which is an interpretation rather than what's explicitly described in the story.",
-        "A more accurate summary should describe what actually happened (the radio activating with a voice identical to the rescued man) without assuming the team's thoughts or reactions."
+        "A more accurate summary should describe what actually happened (the radio activating with a voice identical to the rescued man) without assuming the team's thoughts or reactions.",
+        "Using the term \"wonder\" implies a holiday spirit which invokes a different context than the story describes."
       ]
     ],
     "rewrites": [
@@ -472,7 +474,8 @@
     "explanation": [
       [],
       [
-        "The summary incorrectly states that \"Heaven's father\" lets Destiny in, but the story only mentions \"a man in a dirty shirt\" and does not confirm his identity. The story explicitly states \"She wasn't sure if this was Heaven's dad or not,\" meaning the man's relationship to Heaven is uncertain."
+        "The summary incorrectly states that \"Heaven's father\" lets Destiny in, but the story only mentions \"a man in a dirty shirt\" and does not confirm his identity. The story explicitly states \"She wasn't sure if this was Heaven's dad or not,\" meaning the man's relationship to Heaven is uncertain.",
+        "It is very unlikely Heaven has a father since she is a ghost."
       ],
       [
         "The summary incorrectly states that Destiny discovers \"Heaven's dead body,\" but the text only mentions that she felt \"cold flesh\" and \"a tangle of hair\" without explicitly identifying whose body it is.",
