@@ -119,15 +119,15 @@ if __name__ == "__main__":
             question = "Which example better exhibits the style attribute?"
             answer_options = ["Example 1", "Example 2"]
         else:
-            st.markdown('### Example')
-            st.write(examples[st.session_state['pageNum']]['example'])
+            st.markdown('### Example:')
+            st.markdown(examples[st.session_state['pageNum']]['example'].replace('#', '\#'))
             question = "Does the example contradict or exhibit the style preference?"
             answer_options = ["1 - clearly contradicts", "2 - somewhat contradicts", "3 - I'm not sure", "4 - somewhat exhibits", "5 - clearly exhibits"]
 
         next_disabled = False
 
         st.session_state["answer"] = st.radio(
-            question,
+            f'#### {question}',
             answer_options,
             key=f"q{st.session_state['pageNum']}_q_radio",
             index=None
