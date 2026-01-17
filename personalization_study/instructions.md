@@ -1,6 +1,11 @@
 ### Task Description
-For each question you will see two passages of text to compare or one passage of text to judge based on whether they demonstrate a specific writing style preference. We will provide a definition of the writing style. Analyze whether the example text exhibits the style preference or contradicts the preference. Use the 'Next' button to navigate to the next question.
+For each question you will see two passages of AI-generated text, either summaries or emails, to compare based on a set of style directions. You will have to answer which passage better follows the style direction. You can ignore the content of the passages and focus on the writing style.
 
-Please message us on Upwork to let us know you have compled the pilot, and we will get back to you within a couple days to tell you if you will move on to the full study.
+Use the 'Next' button to navigate to the next question.
 
- 
+---
+
+#### Payment
+You will be paid via Upwork once you have completed the pilot. Please allow a few days to submit the payment. 
+
+**Thank you so much for participating in our study!**
