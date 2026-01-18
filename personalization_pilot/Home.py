@@ -3,7 +3,18 @@ import json
 import os
 import glob
 import time
+import gspread
+from google.oauth2.service_account import Credentials
 
+
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+
+creds = Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=SCOPES
+)
+
+gc = gspread.authorize(creds)
 
 DEFINITIONS = {
     "old timey radio": "mimicking the style or radio broadcasts from the mid-1900s",
@@ -12,17 +23,14 @@ DEFINITIONS = {
 }
 
 def next_click():
-    # Make sure the annotations file exists
-    os.makedirs("personalization_pilot/annotations", exist_ok=True)
-    if not os.path.exists(f"personalization_pilot/annotations/{st.session_state['userID']}.json"):
-        with open(f"personalization_pilot/annotations/{st.session_state['userID']}.json", "w") as f:
-            f.write(json.dumps({}))
-
-    # Read the existing annotations
-    with open(f"personalization_pilot/annotations/{st.session_state['userID']}.json", "r") as f:
-        annotations = json.load(f)
-
     if st.session_state["pageNum"] == -1:
+        worksheet = gc.open_by_url(st.secrets["sheet_url"]).worksheet("pilot")
+        user_annos = worksheet.get_all_records()
+        annotations = {}
+        for rec in user_annos:
+            if rec["user"] == st.session_state['userID']:
+                annotations[rec['id']] = rec
+
         # If on the home page, skip ahead to the first incomplete annotation
         st.session_state['pageNum'] += 1
         while str(st.session_state["pageNum"]) in annotations:
@@ -33,31 +41,20 @@ def next_click():
     else:
         # Write the completed annotation with completion time
         endtime = time.time() # this will be in seconds
-        annotations[st.session_state["pageNum"]] = {
-            "answer": st.session_state["answer"],
-            "timing": round(endtime - st.session_state["starttime"], 2)
-        }
+        temp = [
+            st.session_state['userID'],
+            st.session_state["pageNum"],
+            st.session_state["answer"],
+            round(endtime - st.session_state["starttime"], 2)
+        ]
 
-        with open(f"personalization_pilot/annotations/{st.session_state['userID']}.json", "w") as f:
-            f.write(json.dumps(annotations))
+        worksheet = gc.open_by_url(st.secrets["sheet_url"]).worksheet("pilot")
+        worksheet.append_row(temp)
 
         # Reset values
         st.session_state['pageNum'] += 1
         st.session_state["starttime"] = time.time()
 
-def prep_download_file():
-    # Download annotation files from Streamlit
-    annotations = {}
-    files = glob.glob(pathname="personalization_pilot/annotations/*")
-    for output_name in files:
-        with open(output_name, "r") as file:
-            st.write(output_name)
-            try:
-                annotations[output_name.split('/')[-1].split('.json')[0]] = json.loads(file.readline())
-            except:
-                st.write("Failed")
-                continue
-    return annotations
 
 
 if __name__ == "__main__":
@@ -94,13 +91,6 @@ if __name__ == "__main__":
             st.success('Thank you!')
             # Next button moves on to next question
             st.button("Next", disabled=False, on_click=next_click)
-        if st.session_state["userID"] == 'download':
-            # If the user enters 'download' as the user ID, then we can download all files.
-            btn = st.download_button(
-                label="Download all annotations",
-                data=json.dumps(prep_download_file(), indent=2),
-                file_name="personalization_pilot_annotations.json",
-            )
     elif st.session_state["pageNum"] == len(examples):
         # End of the task.
         expanded = True
