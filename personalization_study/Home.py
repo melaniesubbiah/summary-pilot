@@ -62,7 +62,7 @@ def next_click():
                 else:
                     temp.append('prose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'compose')
 
-        worksheet = gc.open_by_url(sheet_url).worksheet(st.session_state['userID'])
+        worksheet = gc.open_by_url(st.secrets["sheet_url"]).worksheet(st.session_state['userID'])
         worksheet.append_row(temp)
 
         # Reset values
