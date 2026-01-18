@@ -4,8 +4,20 @@ import os
 import glob
 import time
 import random
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 random.seed(12058563628920)
+
+
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+
+creds = ServiceAccountCredentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=SCOPES
+)
+
+gc = gspread.authorize(creds)
 
 
 
@@ -22,20 +34,16 @@ anno_ids = {
 }
 
 def next_click():
-    # Make sure the annotations file exists
-    os.makedirs("personalization_study/annotations", exist_ok=True)
-    if not os.path.exists(f"personalization_study/annotations/{st.session_state['userID']}.json"):
-        with open(f"personalization_study/annotations/{st.session_state['userID']}.json", "w") as f:
-            f.write(json.dumps({}))
-
-    # Read the existing annotations
-    with open(f"personalization_study/annotations/{st.session_state['userID']}.json", "r") as f:
-        annotations = json.load(f)
-
     if st.session_state["pageNum"] == -1:
+        worksheet = gc.open_by_url(st.secrets["sheet_url"]).worksheet(st.session_state['userID'])
+        user_annos = worksheet.get_all_records()
+        annotations = {}
+        for rec in user_annos:
+            annotations[rec['id']] = rec
+
         # If on the home page, skip ahead to the first incomplete annotation
         st.session_state['pageNum'] += 1
-        while str(st.session_state["pageNum"]) in annotations:
+        while st.session_state["pageNum"] in annotations:
             st.session_state['pageNum'] += 1
 
         # Start the completion time clock
@@ -43,41 +51,23 @@ def next_click():
     else:
         # Write the completed annotation with completion time
         endtime = time.time() # this will be in seconds
-        temp = {
-            "timing": round(endtime - st.session_state["starttime"], 2),
-            'id': st.session_state['orig_id'],
-        }
+        temp = [st.session_state['pageNum'], st.session_state['orig_id'], round(endtime - st.session_state["starttime"], 2)]
         for i in range(3):
             if "neither" in st.session_state[f"answer{str(i)}"]:
-                temp[f"style{str(i)}"] = 'neither'
+                temp.append('neither')
             else:
                 answer = "1" in st.session_state[f"answer{str(i)}"]
                 if answer:
-                    temp[f"style{str(i)}"] = 'compose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'prose'
+                    temp.append('compose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'prose')
                 else:
-                    temp[f"style{str(i)}"] = 'prose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'compose'
-        annotations[st.session_state["pageNum"]] = temp
+                    temp.append('prose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'compose')
 
-        with open(f"personalization_study/annotations/{st.session_state['userID']}.json", "w") as f:
-            f.write(json.dumps(annotations))
+        worksheet = gc.open_by_url(sheet_url).worksheet(st.session_state['userID'])
+        worksheet.append_row(temp)
 
         # Reset values
         st.session_state['pageNum'] += 1
         st.session_state["starttime"] = time.time()
-
-def prep_download_file():
-    # Download annotation files from Streamlit
-    annotations = {}
-    files = glob.glob(pathname="personalization_study/annotations/*")
-    for output_name in files:
-        with open(output_name, "r") as file:
-            st.write(output_name)
-            try:
-                annotations[output_name.split('/')[-1].split('.json')[0]] = json.loads(file.readline())
-            except:
-                st.write("Failed")
-                continue
-    return annotations
 
 
 if __name__ == "__main__":
@@ -140,13 +130,6 @@ if __name__ == "__main__":
             st.success('Thank you!')
             # Next button moves on to next question
             st.button("Next", disabled=False, on_click=next_click)
-        if st.session_state["userID"] == 'download':
-            # If the user enters 'download' as the user ID, then we can download all files.
-            btn = st.download_button(
-                label="Download all annotations",
-                data=json.dumps(prep_download_file(), indent=2),
-                file_name="personalization_study_annotations.json",
-            )
     elif st.session_state["pageNum"] == len(examples):
         # End of the task.
         expanded = True
