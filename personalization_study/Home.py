@@ -5,14 +5,14 @@ import glob
 import time
 import random
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+from oauth2client.service_account import Credentials
 
 random.seed(12058563628920)
 
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
-creds = ServiceAccountCredentials.from_service_account_info(
+creds = Credentials.from_service_account_info(
     st.secrets["gcp_service_account"],
     scopes=SCOPES
 )
