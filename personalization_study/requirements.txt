@@ -1,2 +1,4 @@
 streamlit
 glob2
+gspread
+google-auth
