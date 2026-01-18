@@ -6,6 +6,6 @@ Use the 'Next' button to navigate to the next question.
 ---
 
 #### Payment
-You will be paid via Upwork once you have completed the pilot. Please allow a few days to submit the payment. 
+You will be paid via Upwork once you have completed the annotations. Please allow a few days to submit the payment. 
 
 **Thank you so much for participating in our study!**
