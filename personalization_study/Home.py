@@ -48,11 +48,14 @@ def next_click():
             'id': st.session_state['orig_id'],
         }
         for i in range(3):
-            answer = "1" in st.session_state[f"answer{str(i)}"]
-            if answer:
-                temp[f"style{str(i)}"] = 'compose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'prose'
+            if "neither" in st.session_state[f"answer{str(i)}"]:
+                temp[f"style{str(i)}"] = 'neither'
             else:
-                temp[f"style{str(i)}"] = 'prose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'compose'
+                answer = "1" in st.session_state[f"answer{str(i)}"]
+                if answer:
+                    temp[f"style{str(i)}"] = 'compose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'prose'
+                else:
+                    temp[f"style{str(i)}"] = 'prose' if st.session_state[f"{st.session_state['pageNum']}_order"] else 'compose'
         annotations[st.session_state["pageNum"]] = temp
 
         with open(f"personalization_study/annotations/{st.session_state['userID']}.json", "w") as f:
@@ -180,7 +183,7 @@ if __name__ == "__main__":
         questions = []
         for i in range(3):
             questions.append(f"Which {task_type.lower()} better follows the style direction to *{style[i]}*?")
-        answer_options = [f"{task_type} 1", f"{task_type} 2"]
+        answer_options = [f"{task_type} 1", f"{task_type} 2", f"Neither {task_type.lower()} follows the style direction"]
 
         next_disabled = False
 
