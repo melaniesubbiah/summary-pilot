@@ -16,7 +16,7 @@ random.seed(12058563628920)
 # }
 
 anno_ids = {
-    '123': [(0, 5), (25, 30), (100, 105), (125, 130)],
+    '123': [(5, 25), (30, 50), (105, 125), (130, 150)],
     '234': [(0, 5), (50, 55), (100, 105), (150, 155)],
     '345': [(0, 5), (75, 80), (100, 105), (175, 180)],
 }
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     elif st.session_state["pageNum"] == len(examples):
         # End of the task.
         expanded = True
-        st.success('You have finished the task. Please send us a message on Upwork and thank you for completing the pilot!')
+        st.success('You have finished the task. Please send us a message on Upwork and thank you for completing this milestone!')
     else:
         st.markdown(f'## Annotation {int(st.session_state["pageNum"]) + 1}/{len(examples)}')
         # Show a question.
