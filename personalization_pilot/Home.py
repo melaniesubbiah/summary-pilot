@@ -28,12 +28,12 @@ def next_click():
         user_annos = worksheet.get_all_records()
         annotations = {}
         for rec in user_annos:
-            if rec["user"] == st.session_state['userID']:
+            if str(rec["user"]) == st.session_state['userID']:
                 annotations[rec['id']] = rec
 
         # If on the home page, skip ahead to the first incomplete annotation
         st.session_state['pageNum'] += 1
-        while str(st.session_state["pageNum"]) in annotations:
+        while st.session_state["pageNum"] in annotations:
             st.session_state['pageNum'] += 1
 
         # Start the completion time clock
