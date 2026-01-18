@@ -53,7 +53,7 @@ def next_click():
         endtime = time.time() # this will be in seconds
         temp = [st.session_state['pageNum'], st.session_state['orig_id'], round(endtime - st.session_state["starttime"], 2)]
         for i in range(3):
-            if "neither" in st.session_state[f"answer{str(i)}"]:
+            if "Neither" in st.session_state[f"answer{str(i)}"]:
                 temp.append('neither')
             else:
                 answer = "1" in st.session_state[f"answer{str(i)}"]
