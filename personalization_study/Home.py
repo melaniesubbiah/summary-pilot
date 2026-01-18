@@ -5,7 +5,7 @@ import glob
 import time
 import random
 import gspread
-from oauth2client.service_account import Credentials
+from google.oauth2.service_account import Credentials
 
 random.seed(12058563628920)
 
